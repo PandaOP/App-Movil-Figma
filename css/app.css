@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;500;600;700&family=Roboto:wght@500&display=swap');
+
+.contenedor_gloval{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    /* justify-content: end; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 428px;
+    height: 926px;
+    left: 0px;
+    top: 0px;
+
+
+
+    background: #EEF1F4;
+}
+
+.icono_central{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: calc(50% - 24px/2);
+    top: calc(50% - 24px/2 - 1px);
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-end;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 50px;
+
+
+    text-align: center;
+}
+
+.header_letras{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    width: 339px;
+    height: 183px;
+    left: 0px;
+    top: 0px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 48px 0px;
+}
+
+h1{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 50px;
+
+
+text-align: center;
+
+
+
+color: #000000;
+}
+h2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
